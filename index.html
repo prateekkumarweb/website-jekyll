@@ -11,12 +11,15 @@
 {% seo %}
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" integrity="sha256-7O1DfUu4pybYI7uAATw34eDrgQaWGOfMV/8erfDQz/Q=" crossorigin="anonymous">
+    <!-- <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
@@ -24,6 +27,18 @@
     {% if jekyll.environment == 'production' and site.google_analytics %}
       {% include google-analytics.html %}
     {% endif %}
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
   </head>
 
   <body id="page-top">
@@ -34,12 +49,12 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+          <a class="js-scroll-trigger" href="#page-top">{{site.title}}</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">Home</a>
         </li>
-        <li class="sidebar-nav-item">
+        <!-- <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="sidebar-nav-item">
@@ -47,10 +62,10 @@
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="sidebar-nav-item">
+        </li> -->
+        <!-- <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#contact">Contact</a>
-        </li>
+        </li> -->
       </ul>
     </nav>
 
@@ -67,7 +82,7 @@
     </header>
 
     <!-- About -->
-    <section class="content-section bg-light" id="about">
+    <!-- <section class="content-section bg-light" id="about">
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -78,10 +93,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <!-- <section class="content-section bg-primary text-white text-center" id="services">
       <div class="container">
         <div class="content-section-heading">
           <h3 class="text-secondary mb-0">Services</h3>
@@ -128,20 +143,20 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Callout -->
-    <section class="callout">
+    <!-- <section class="callout">
       <div class="container text-center">
         <h2 class="mx-auto mb-5">Welcome to
           <em>your</em>
           next website!</h2>
         <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
       </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
+    <!-- <section class="content-section" id="portfolio">
       <div class="container">
         <div class="content-section-heading text-center">
           <h3 class="text-secondary mb-0">Portfolio</h3>
@@ -194,43 +209,48 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
+    <!-- <section class="content-section bg-primary text-white">
       <div class="container text-center">
         <h2 class="mb-4">The buttons below are impossible to resist...</h2>
         <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
         <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
       </div>
-    </section>
+    </section> -->
 
     <!-- Map -->
-    <section id="contact" class="map">
+    <!-- <section id="contact" class="map">
       <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
       <br/>
       <small>
         <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
       </small>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
+            <a class="social-link rounded-circle text-white" href="https://www.facebook.com/prateekkumarweb">
               <i class="icon-social-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
+            <a class="social-link rounded-circle text-white" href="https://twitter.com/prateekkumarweb">
               <i class="icon-social-twitter"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
+            <a class="social-link rounded-circle text-white" href="https://github.com/prateekkumarweb">
               <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/prateekkumarweb">
+              <i class="icon-social-linkedin"></i>
             </a>
           </li>
         </ul>
@@ -243,16 +263,8 @@
       <i class="fa fa-angle-up"></i>
     </a>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
-
   </body>
 
 </html>
