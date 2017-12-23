@@ -34,6 +34,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-minifier
+  - liquid-md5
+  - jekyll-email-protect
 
 include:
   - _redirects
