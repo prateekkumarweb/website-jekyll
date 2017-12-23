@@ -1,7 +1,7 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 
   <head>
 
@@ -72,12 +72,12 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0"><!-- <span class="text-primary"> -->Prateek<!-- </span> --> Kumar</h1>
+          <h1 class="mb-0">{{site.data.me.name}}</h1>
           <div class="subheading mb-5">{{site.data.me.address1}} · {{site.data.me.address2}} · <a href="tel:{{site.data.me.phone}}">{{site.data.me.phone}}</a> · <a href="mailto:{{site.data.me.email}}">{{site.data.me.email}}</a></div>
           <p class="mb-5">{{site.data.me.about}}</p>
-          <ul class="list-inline list-social-icons mb-0">
+          <ul class="list-inline list-social-icons mb-5">
             <li class="list-inline-item">
-              <a href="https://www.facebook.com/prateekkumarweb">
+              <a href="https://www.facebook.com/{{site.data.me.facebook}}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -85,7 +85,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://twitter.com/prateekkumarweb">
+              <a href="https://twitter.com/{{site.data.me.twitter}}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -93,7 +93,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/prateekkumarweb">
+              <a href="https://www.linkedin.com/in/{{site.data.me.linkedin}}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -101,14 +101,31 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://github.com/prateekkumarweb">
+              <a href="https://github.com/{{site.data.me.github}}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
+            <li class="list-inline-item">
+              <a href="https://www.reddit.com/user/{{site.data.me.reddit}}">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/{{site.data.me.instagram}}">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
           </ul>
+          <div class="mb-0">Find my public PGP key <a href="http://keyserver.ubuntu.com:11371/pks/lookup?fingerprint=on&op=index&search=0x{{site.data.me.publickey}}">here</a>.</div>
         </div>
       </section>
 
@@ -237,7 +254,7 @@
 
     <footer class="footer text-center">
       <div class="container">
-        <p class="text-muted mb-1">Copyright &copy; {{site.time|date:"%Y"}} {{site.title}}.
+        <p class="text-muted mb-1">Copyright &copy; {{site.time|date:"%Y"}} {{site.title}}.<br>
           <span class="small">Last updated: {{'now'|date_to_rfc822}}</span></p>
       </div>
     </footer>
