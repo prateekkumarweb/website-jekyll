@@ -25,6 +25,8 @@ group :jekyll_plugins do
   gem 'liquid-md5'
   gem 'jekyll-email-protect'
   gem 'jemoji'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-gist'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
