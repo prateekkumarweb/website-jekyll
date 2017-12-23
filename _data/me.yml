@@ -1,17 +1,18 @@
 name: Prateek Kumar
 email: prateek@prateekkumar.in
-address1: IIT Hyderabad
-address2: Kandi, Sangareddy - 502285, INDIA
+address1: Indian Institute of Technology Hyderabad
+address2: Kandi, Sangareddy - 502285, Telangana, INDIA
 publickey: AA58A8213007883D3E5F95B1CCF0B4F846B8EE31
 about: >-
   I am currently pursuing my Bachelor's degree in Computer Science and Engineering at IIT Hyderabad.
-github: prateekkumarweb
-facebook: prateekkumarweb
-twitter: prateekkumarweb
-linkedin: prateekkumarweb
+handles:
+  github: https://github.com/prateekkumarweb
+  twitter: https://twitter.com/prateekkumarweb
+  facebook: https://www.facebook.com/prateekkumarweb
+  linkedin: https://www.linkedin.com/in/prateekkumarweb
+  reddit: https://www.reddit.com/user/prateekkumarweb
+  instagram: https://www.instagram.com/prateekkumarweb
 keybase: prateekkumarweb
-reddit: prateekkumarweb
-instagram: prateekkumarweb
 education:
   - institute: Indian Institute of Technology Hyderabad
     address: Sangareddy, Telangana, INDIA
@@ -120,7 +121,7 @@ projects:
     description: >-
       I worked under the guidance of Dr. Ramakrishna Upadrasta on various applications of compiler
       optimizations in neuroscience softwares. During this I explored various ODE Solvers that is been used in
-      the Neuron simulation softwares. I rewrote the CVODE solver in SUNDIALS and measures the runtime
+      the Neuron simulation softwares. I rewrote the CVODE solver in SUNDIALS and measured the runtime
       performance for different differential equations.
   - title: Timetabler
     subtitle: Project
@@ -165,4 +166,8 @@ skills:
 interests: >-
   Compilers and Compiler Optimizations, SAT Solving, Theory of Computation and Complexity Theory,
   Algorithms, Discrete Mathematics, Formal Logic.
-  
+achievements:
+  - Secured All India Rank 688 in JEE (Advanced) 2015.
+  - Secured All India Rank 209 in JEE (Main) 2015.
+  - Secured State Rank 59 (Andhra Pradesh, India) in AP EAMCET 2015.
+  - Secured State Rank 63 (Telangana, India) in TS EAMCET 2015.
