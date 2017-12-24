@@ -21,7 +21,7 @@ nav:
 
     <div class="subheading mb-5">
       {{site.data.me.address1}} · {{site.data.me.address2}} ·
-      <a href="mailto:{{site.data.me.email | encode_email}}" style="unicode-bidi:bidi-override; direction: rtl;">
+      <a href="mailto:{{site.data.me.email | encode_email}}" class="mail-link">
         {{site.data.me.email | split:"" | reverse | join:"" | replace: '@', '&#64;' | replace: '.', '&#46;'}}
       </a>
     </div>
