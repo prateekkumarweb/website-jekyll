@@ -1,10 +1,16 @@
 name: Prateek Kumar
 email: prateek@prateekkumar.in
 address1: Indian Institute of Technology Hyderabad
-address2: Kandi, Sangareddy - 502285, Telangana, INDIA
+address2: Kandi - 502285, Sangareddy, Telangana, INDIA
 publickey: AA58A8213007883D3E5F95B1CCF0B4F846B8EE31
-about: >-
-  I am currently pursuing my Bachelor's degree in Computer Science and Engineering at IIT Hyderabad.
+about: >- # Use markdown, leave two empty lines for a new paragraph
+  I am a student, developer and researcher and I am currently pursuing my
+  Bachelor's degree in Computer Science and Engineering at
+  [IIT Hyderabad](https://iith.ac.in).
+
+
+  Find my public repositories on Github
+  [here](https://prateekkumarweb.github.io).
 handles:
   github: https://github.com/prateekkumarweb
   twitter: https://twitter.com/prateekkumarweb
@@ -19,44 +25,41 @@ education:
     course: B. Tech. (Honors) in Computer Science and Engineering
     period: July 2015 - Present
     score: >-
-      <b>Current CGPA:</b> 9.02/10
+      **Current CGPA:** 9.02/10
   - institute: Sri Chaitanya Junior Kalasala
     address: ECIL X Roads, Secunderabad, INDIA
     course: Intermediate Education (Class XII)
     period: June 2013 - April 2015
     score: >-
-      <b>Percenatge:</b> 98.2%
+      **Percenatge:** 98.2%
   - institute: Pragathi High School
     address: Yapral, Secunderabad, INDIA
     course: Class X
     period: April 2013
     score: >-
-      <b>GPA:</b> 9.3/10
+      **GPA:** 9.3/10
 projects:
   - title: Bookbay
     subtitle: Independent Project
     period: November 2015 - January 2016
     description: >-
-      I worked in a team to develop an online portal which had collection of books or their links based on various
-      courses offered in IIT Hyderabad. Students can upload or suggest new books, review and comment on a
-      book. Portal also displayed suggested books based on courses taken. I wrote the complete code for backend
-      server in Nodejs in this project.
+      Online portal for ebooks based on various courses offered at IIT Hyderabad.
+      Students can upload or suggest new books, review and comment on a book.
+      Portal also displayed suggested books based on courses taken.
     links:
       - https://github.com/prateekkumarweb/Bookbay-IDP
   - title: Bookbay Android App
     subtitle: Self Project
     period: February 2016
     description: >-
-      I along with my friend developed an Android Application for Bookbay. I wrote the API required for app and
-      used them to build the core logic of the app.
+      Android Application for Bookbay.
     links:
       -  https://github.com/prateekkumarweb/BookbayApp
   - title: Web Developer
     subtitle: Nvision 2017, Technical fest of IIT hyderabad
     period: June 2016 - January 2017
     description: >-
-      I worked in a team to develop various portals and main website for the college fest. I also organized and
-      made portals for online games, quizzes and contests.
+      Developed various portals and main website for the college fest.
     links:
       - https://github.com/prateekkumarweb/nvision-id
       - https://github.com/thecodesome/Nvision-Beta
@@ -69,23 +72,21 @@ projects:
     subtitle: Internship
     period: August 2016 - November 2016
     description: >-
-      I worked on various problems in Clustering and was supervised by Dr. Maunendra Desarkar. I read research
-      papers, implemented the algorithms and compared different evaluation metrics on clustering across different
-      algorithms.
+      Supervised by Dr. Maunendra Desarkar
   - title: Semaphore in Minix
     subtitle: Project
     period: January 2017 - April 2017
     description: >-
-      I implemented Semaphores in Minix 3 as part of Course project. I used this semaphore implementation to
-      solve the producer consumer problem.
+      Semaphore implementation in Minix 3 as part of course project. I solved
+      producer consumer problem using this implmentation.
     links:
       - https://github.com/prateekkumarweb/minix-semaphore
   - title: APV Quiz
     subtitle: Project
     period: January 2017 - April 2017
     description: >-
-      I worked in a team and implemented Quizzing Software in C++ and Golang as part of Course Project. It was
-      based on use of concurrency. I mainly worked on the server part of the project.
+      Quizzing Software in C++ (Client) and Golang (Server) as part of Course
+      project (Principles of Programming Languages) based on concurrency.
     links:
       - https://github.com/prateekkumarweb/apvquiz
       - https://github.com/prateekkumarweb/apvquiz-client
@@ -93,51 +94,48 @@ projects:
     subtitle: Proect
     period: January 2017 - April 2017
     description: >-
-      I worked in a team and implemented Go and Checkers game in Haskell as part of Course Project. I mainly
-      worked on implementing the Go game in the project and made some contributions to the Checkers.
+      Go and Checkers game in Haskell as part of Course Project (Principles of
+      Programming Languages).
     links:
       - https://github.com/prateekkumarweb/haskell-go-checkers
   - title: Battleship
     subtitle: Self Project
     period: May 2017 - July 2017
     description: >-
-      I implemented multiplayer Battleship game in Golang. Being web developer of Nvision 2017, the Technical
-      fest of IIT Hyderabad, I worked in a team to make a multiplayer battleship game in Nodejs
-      (<a href="https://github.com/thecodesome/Nvision-Battleship">Github</a>). During my free time I implemented
-      the same game in Go language using concurrency (Go routines).
+      I implemented multiplayer Battleship game in Golang. Being web developer
+      of Nvision 2017, the Technical fest of IIT Hyderabad, I worked in a team
+      to make a multiplayer battleship game in Nodejs
+      ([Github](https://github.com/thecodesome/Nvision-Battleship)).
+      During my free time I implemented the same game in Go language using
+      concurrency (Go routines).
     links:
       - https://github.com/prateekkumarweb/Go-Battleship
   - title: Summer Research Internship
     subtitle: Internship
     period: May 2017 - July 2017
     description: >-
-      I worked under the guidance of Dr. Ramakrishan Upadrasta on Application of Polyhedral Compilation
-      in various Softwares. During this I read research papers, explored the gain in runtime under polyhedral
-      compilation through Pluto Compiler. I used Pluto to optimize some software where I had to rewrite some
-      parts of the code to make it easily optimizable by Pluto.
+      Supervised by Dr. Ramakrishna Upadrasta.
   - title: Mini Project
     subtitle: Project
     period: August 2017 - November 2017
     description: >-
-      I worked under the guidance of Dr. Ramakrishna Upadrasta on various applications of compiler
-      optimizations in neuroscience softwares. During this I explored various ODE Solvers that is been used in
-      the Neuron simulation softwares. I rewrote the CVODE solver in SUNDIALS and measured the runtime
-      performance for different differential equations.
+      Supervised by Dr. Ramakrishna Upadrasta.
   - title: Timetabler
     subtitle: Project
     period: September 2017 - November 2017
     description: >-
-      I worked in a team as part of Course Project to develop a timetable scheduling software using existing SAT
-      Solvers. We used Open-WBO solver in this project. I developed the parser for input and contributed to the
-      main encoding of the constraints.
+      I worked in a team as part of Course Project (Constraint Solving) to
+      develop a timetable scheduling software using existing SAT Solvers.
+      We used Open-WBO solver in this project.
     links:
       - https://github.com/GoodDeeds/Timetabler
   - title: Teaching Assistant
     subtitle: CS2400 - IIT Bhilai
     period: October 2017 - November 2017
     description: >-
-      I worked as a TA under Dr. Ramakrishna Upadrasta at IIT Bhilai for the course CS2400 - Principles of
-      Programming Languages I.
+      I worked as a TA under Dr. Ramakrishna Upadrasta at
+      [IIT Bhilai](https://iitbhilai.ac.in/) for the course CS2400 -
+      Principles of Programming Languages I.
 skills:
   programlang:
     - C
@@ -164,8 +162,8 @@ skills:
     - MongoDB
     - CouchDB
 interests: >-
-  Compilers and Compiler Optimizations, SAT Solving, Theory of Computation and Complexity Theory,
-  Algorithms, Discrete Mathematics, Formal Logic.
+  Compilers and Compiler Optimizations, SAT Solving, Theory of Computation and
+  Complexity Theory, Algorithms, Discrete Mathematics, Formal Logic.
 achievements:
   - Secured All India Rank 688 in JEE (Advanced) 2015.
   - Secured All India Rank 209 in JEE (Main) 2015.
