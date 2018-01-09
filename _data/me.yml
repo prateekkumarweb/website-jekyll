@@ -25,7 +25,7 @@ education:
     course: B. Tech. (Honors) in Computer Science and Engineering
     period: July 2015 - Present
     score: >-
-      **Current CGPA:** 9.02/10
+      **Current CGPA:** 9.11/10
   - institute: Sri Chaitanya Junior Kalasala
     address: ECIL X Roads, Secunderabad, INDIA
     course: Intermediate Education (Class XII)
@@ -114,12 +114,19 @@ projects:
     subtitle: Internship
     period: May 2017 - July 2017
     description: >-
-      Supervised by Dr. Ramakrishna Upadrasta.
+      Supervised by Dr. Ramakrishna Upadrasta
+  - title: Cool Compiler
+    subtitle: Project
+    period: August 2017 - November 2017
+    description: >-
+      I built a compiler for
+      [Cool](https://en.wikipedia.org/wiki/Cool_%28programming_language%29)
+      programming language to emit LLVM-IR.
   - title: Mini Project
     subtitle: Project
     period: August 2017 - November 2017
     description: >-
-      Supervised by Dr. Ramakrishna Upadrasta.
+      Supervised by Dr. Ramakrishna Upadrasta
   - title: Timetabler
     subtitle: Project
     period: September 2017 - November 2017
@@ -129,13 +136,32 @@ projects:
       We used Open-WBO solver in this project.
     links:
       - https://github.com/GoodDeeds/Timetabler
+  - title: Analysis of LLVM Passes
+    subtitle: Project
+    period: August 2017 - November 2017
+    description: >-
+      I worked in a team as part of Course Project (Compiler Engineering) to
+      analyze the impact of LLVM Passes on code bloat size and compile time on
+      SPEC 2017 CPU Benchmark.
   - title: Teaching Assistant
     subtitle: CS2400 - IIT Bhilai
     period: October 2017 - November 2017
     description: >-
-      I worked as a TA under Dr. Ramakrishna Upadrasta at
+      I was a TA under Dr. Ramakrishna Upadrasta at
       [IIT Bhilai](https://iitbhilai.ac.in/) for the course CS2400 -
       Principles of Programming Languages I.
+  - title: Teaching Assistant
+    subtitle: CS2433 - IIT Hyderabad
+    period: January 2018 - April 2018
+    description: >-
+      I am currently a TA under Dr. Saurabh Joshi at
+      [IIT Hyderabad](https://iith.ac.in) for the course CS2433 -
+      Principles of Programming Languages II.
+  - title: Mini Project
+    subtitle: Project
+    period: January 2018 - April 2018
+    description: >-
+      Supervised by Dr. Ramakrishna Upadrasta
 skills:
   programlang:
     - C
@@ -161,9 +187,11 @@ skills:
     - GNU Octave/Matlab
     - MongoDB
     - CouchDB
+    - LLVM Infrastructure
 interests: >-
-  Compilers and Compiler Optimizations, SAT Solving, Theory of Computation and
-  Complexity Theory, Algorithms, Discrete Mathematics, Formal Logic.
+  Compilers, Compiler Optimizations, SAT Solving, Sofware Verification, Theory
+  of Computation and Complexity Theory, Algorithms, Discrete Mathematics,
+  Formal Logic.
 achievements:
   - Secured All India Rank 688 in JEE (Advanced) 2015.
   - Secured All India Rank 209 in JEE (Main) 2015.

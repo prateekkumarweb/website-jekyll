@@ -27,6 +27,8 @@ author: "Prateek Kumar"
 twitter_username: prateekkumarweb
 github_username:  prateekkumarweb
 
+timezone: Asia/Kolkata
+
 # Build settings
 markdown: kramdown
 # theme: minima
