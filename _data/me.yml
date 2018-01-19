@@ -62,10 +62,10 @@ projects:
       Developed various portals and main website for the college fest.
     links:
       - https://github.com/prateekkumarweb/nvision-id
-      - https://github.com/thecodesome/Nvision-Beta
-      - https://github.com/thecodesome/Nvision-Final
-      - https://github.com/thecodesome/Nvision-Battleship
-      - https://github.com/thecodesome/Nvision-OlympicIQ
+      - https://github.com/codesome/Nvision-Beta
+      - https://github.com/codesome/Nvision-Final
+      - https://github.com/codesome/Nvision-Battleship
+      - https://github.com/codesome/Nvision-OlympicIQ
       - https://github.com/prateekkumarweb/Nvision2017-elmatrico
       - https://github.com/prateekkumarweb/Nvision2017-cryptex
   - title: Research Internship
@@ -105,7 +105,7 @@ projects:
       I implemented multiplayer Battleship game in Golang. Being web developer
       of Nvision 2017, the Technical fest of IIT Hyderabad, I worked in a team
       to make a multiplayer battleship game in Nodejs
-      ([Github](https://github.com/thecodesome/Nvision-Battleship)).
+      ([Github](https://github.com/codesome/Nvision-Battleship)).
       During my free time I implemented the same game in Go language using
       concurrency (Go routines).
     links:
