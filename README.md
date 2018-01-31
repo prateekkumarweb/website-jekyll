@@ -2,7 +2,7 @@
 
 Personal Website
 
-Theme from [https://github.com/BlackrockDigital/startbootstrap-resume/tree/1fcb3f79838c064501873433084f89cb2dd26097](https://github.com/BlackrockDigital/startbootstrap-resume/tree/1fcb3f79838c064501873433084f89cb2dd26097)
+You can find the theme [here](https://github.com/BlackrockDigital/startbootstrap-resume/tree/02c4fa8bee2524f6ac416e6a42855abccc29a856).
 
 ---
 Copyright (c) 2017-2018 Prateek Kumar
