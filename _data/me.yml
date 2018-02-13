@@ -5,8 +5,8 @@ address2: Kandi - 502285, Sangareddy, Telangana, INDIA
 publickey: AA58A8213007883D3E5F95B1CCF0B4F846B8EE31
 about: >- # Use markdown, leave two empty lines for a new paragraph
   I am a student, developer and researcher and I am currently pursuing my
-  Bachelor's degree in Computer Science and Engineering at
-  [IIT Hyderabad](https://iith.ac.in).
+  Bachelor's degree in [Computer Science and Engineering](https://cse.iith.ac.in)
+  at [IIT Hyderabad](https://iith.ac.in).
 
 
   Find my public repositories on Github
@@ -44,8 +44,8 @@ projects:
     period: November 2015 - January 2016
     description: >-
       Online portal for ebooks based on various courses offered at IIT Hyderabad.
-      Students can upload or suggest new books, review and comment on a book.
-      Portal also displayed suggested books based on courses taken.
+      Students can upload or suggest new books, review, and comment on a book.
+      Portal also displayed recommended books based on courses taken.
     links:
       - https://github.com/prateekkumarweb/Bookbay-IDP
   - title: Bookbay Android App
@@ -59,7 +59,8 @@ projects:
     subtitle: Nvision 2017, Technical fest of IIT hyderabad
     period: June 2016 - January 2017
     description: >-
-      Developed various portals and main website for the college fest.
+      Developed various portals, online games and main website for
+      the techno-management fest of IIT Hyderabad.
     links:
       - https://github.com/prateekkumarweb/nvision-id
       - https://github.com/codesome/Nvision-Beta
@@ -77,8 +78,8 @@ projects:
     subtitle: Project
     period: January 2017 - April 2017
     description: >-
-      Semaphore implementation in Minix 3 as part of course project. I solved
-      producer consumer problem using this implmentation.
+      Semaphore implementation in Minix 3 as part of a course project (Operating Systems).
+      Solved the producer-consumer problem using this implementation.
     links:
       - https://github.com/prateekkumarweb/minix-semaphore
   - title: APV Quiz
@@ -189,9 +190,9 @@ skills:
     - CouchDB
     - LLVM Infrastructure
 interests: >-
-  Compilers, Compiler Optimizations, SAT Solving, Sofware Verification, Theory
-  of Computation and Complexity Theory, Algorithms, Discrete Mathematics,
-  Formal Logic.
+  Compilers, Compiler Optimizations, Constraint Solving, Sofware Verification, Theory
+  of Computation and Complexity Theory, Formal Logic, High Performance Computing,
+  Algorithms, Discrete Mathematics.
 achievements:
   - Secured All India Rank 688 in JEE (Advanced) 2015.
   - Secured All India Rank 209 in JEE (Main) 2015.
