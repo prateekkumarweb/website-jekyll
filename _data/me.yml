@@ -31,7 +31,7 @@ education:
     course: Intermediate Education (Class XII)
     period: June 2013 - April 2015
     score: >-
-      **Percenatge:** 98.2%
+      **Percentage:** 98.2%
   - institute: Pragathi High School
     address: Yapral, Secunderabad, INDIA
     course: Class X
@@ -143,7 +143,8 @@ projects:
     description: >-
       I worked in a team as part of Course Project (Compiler Engineering) to
       analyze the impact of LLVM Passes on code bloat size and compile time on
-      SPEC 2017 CPU Benchmark.
+      SPEC 2017 CPU Benchmark. We submitted an abstract of our work in
+      EuroLLVM 2018 and got accepted as Technical talk.
   - title: Teaching Assistant
     subtitle: CS2400 - IIT Bhilai
     period: October 2017 - November 2017
