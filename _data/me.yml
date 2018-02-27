@@ -9,7 +9,7 @@ about: >- # Use markdown, leave two empty lines for a new paragraph
   at [IIT Hyderabad](https://iith.ac.in).
 
 
-  Find my public repositories on Github
+  Find my public repositories on GitHub
   [here](https://prateekkumarweb.github.io).
 handles:
   github: https://github.com/prateekkumarweb
@@ -47,28 +47,37 @@ projects:
       Students can upload or suggest new books, review, and comment on a book.
       Portal also displayed recommended books based on courses taken.
     links:
-      - https://github.com/prateekkumarweb/Bookbay-IDP
+      - title: GitHub
+        href: https://github.com/prateekkumarweb/Bookbay-IDP
   - title: Bookbay Android App
     subtitle: Self Project
     period: February 2016
     description: >-
       Android Application for Bookbay.
     links:
-      -  https://github.com/prateekkumarweb/BookbayApp
+      - title: GitHub
+        href: https://github.com/prateekkumarweb/BookbayApp
   - title: Web Developer
-    subtitle: Nvision 2017, Technical fest of IIT hyderabad
+    subtitle: Nvision 2017, Technical fest of IIT Hyderabad
     period: June 2016 - January 2017
     description: >-
       Developed various portals, online games and main website for
       the techno-management fest of IIT Hyderabad.
     links:
-      - https://github.com/nvision-2017/id
-      - https://github.com/nvision-2017/Beta
-      - https://github.com/nvision-2017/Final
-      - https://github.com/nvision-2017/Battleship
-      - https://github.com/nvision-2017/OlympicIQ
-      - https://github.com/nvision-2017/elmatrico
-      - https://github.com/nvision-2017/cryptex
+      - title: ID
+        href: https://github.com/nvision-2017/id
+      - title: Beta website
+        href: https://github.com/nvision-2017/Beta
+      - title: Final website
+        href: https://github.com/nvision-2017/Final
+      - title: Battleship
+        href: https://github.com/nvision-2017/Battleship
+      - title: OlympicIQ
+        href: https://github.com/nvision-2017/OlympicIQ
+      - title: Elmatrico
+        href: https://github.com/nvision-2017/elmatrico
+      - title: Cryptex
+        href: https://github.com/nvision-2017/cryptex
   - title: Research Internship
     subtitle: Internship
     period: August 2016 - November 2016
@@ -81,7 +90,8 @@ projects:
       Semaphore implementation in Minix 3 as part of a course project (Operating Systems).
       Solved the producer-consumer problem using this implementation.
     links:
-      - https://github.com/prateekkumarweb/minix-semaphore
+      - title: GitHub
+        href: https://github.com/prateekkumarweb/minix-semaphore
   - title: APV Quiz
     subtitle: Project
     period: January 2017 - April 2017
@@ -89,8 +99,10 @@ projects:
       Quizzing Software in C++ (Client) and Golang (Server) as part of Course
       project (Principles of Programming Languages) based on concurrency.
     links:
-      - https://github.com/prateekkumarweb/apvquiz
-      - https://github.com/prateekkumarweb/apvquiz-client
+      - title: Server
+        href: https://github.com/prateekkumarweb/apvquiz
+      - title: Client
+        href: https://github.com/prateekkumarweb/apvquiz-client
   - title: Go and Checkers in Haskell
     subtitle: Proect
     period: January 2017 - April 2017
@@ -98,19 +110,21 @@ projects:
       Go and Checkers game in Haskell as part of Course Project (Principles of
       Programming Languages).
     links:
-      - https://github.com/prateekkumarweb/haskell-go-checkers
-  - title: Battleship
+      - title: GitHub
+        href: https://github.com/prateekkumarweb/haskell-go-checkers
+  - title: Battleship in Golang
     subtitle: Self Project
     period: May 2017 - July 2017
     description: >-
       I implemented multiplayer Battleship game in Golang. Being web developer
       of Nvision 2017, the Technical fest of IIT Hyderabad, I worked in a team
       to make a multiplayer battleship game in Nodejs
-      ([Github](https://github.com/nvision-2017/Battleship)).
+      ([GitHub](https://github.com/nvision-2017/Battleship)).
       During my free time I implemented the same game in Go language using
       concurrency (Go routines).
     links:
-      - https://github.com/prateekkumarweb/Go-Battleship
+      - title: GitHub
+        href: https://github.com/prateekkumarweb/Go-Battleship
   - title: Summer Research Internship
     subtitle: Internship
     period: May 2017 - July 2017
@@ -136,7 +150,8 @@ projects:
       develop a timetable scheduling software using existing SAT Solvers.
       We used Open-WBO solver in this project.
     links:
-      - https://github.com/GoodDeeds/Timetabler
+      - title: GitHub
+        href: https://github.com/GoodDeeds/Timetabler
   - title: Analysis of LLVM Passes
     subtitle: Project
     period: August 2017 - November 2017

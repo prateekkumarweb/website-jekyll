@@ -77,9 +77,9 @@ nav:
         <p>{{project.description | markdownify}}</p>
         {% if project.links %}
         <div>
-          <h6>Links: </h6>
+          <h6 style="display:inline;">Links: </h6>
           {% for link in project.links %}
-          <a href="{{link}}">{{link}}</a><br>
+          <a href="{{link.href}}" style="text-decoration:underline;">{{link.title}}</a>
           {% endfor %}
         </div>
         {% endif %}
