@@ -26,7 +26,7 @@ nav:
       </a>
     </div>
 
-    <p class="mb-5">{{site.data.me.about | markdownify}}</p>
+    <div class="mb-5">{{site.data.me.about | markdownify}}</div>
 
     <ul class="list-inline list-social-icons mb-5">
       {% for link in site.data.me.handles %}
@@ -55,7 +55,7 @@ nav:
         <h3 class="mb-0">{{edu.institute}}</h3>
         <div class="subheading mb-3"><span class="small">{{edu.address}}</span></div>
         <div>{{edu.course}}</div>
-        <p>{{edu.score | markdownify}}</p>
+        <div>{{edu.score | markdownify}}</div>
       </div>
       <div class="resume-date text-md-right">
         <span class="text-primary">{{edu.period}}</span>
@@ -74,7 +74,7 @@ nav:
       <div class="resume-content mr-auto">
         <h3 class="mb-0">{{project.title}}</h3>
         <div class="subheading mb-3">{{project.subtitle}}</div>
-        <p>{{project.description | markdownify}}</p>
+	<div>{{project.description | markdownify}}</div>
         {% if project.links %}
         <div>
           <h6 style="display:inline;">Links: </h6>
